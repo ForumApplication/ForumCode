@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "455013408386",
+    "firebase_url": "https://questionstudy-79a39.firebaseio.com",
+    "project_id": "questionstudy-79a39",
+    "storage_bucket": "questionstudy-79a39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455013408386:android:ead0ffa64b9efdb0",
+        "android_client_info": {
+          "package_name": "com.example.abhishekrawat.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455013408386-2dicea7sh8a56l9pi4n9lgm25e6cvjiu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhishekrawat.myapplication",
+            "certificate_hash": "fc9a7e72b019e4c1843a3811b2e471b4f2bf8271"
+          }
+        },
+        {
+          "client_id": "455013408386-2i40hf0kvgqmrunht9gs8t9r85cdrkg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOQqmsF0rmtrs2Qb8bf8CtN7hLhqcQcak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455013408386-2i40hf0kvgqmrunht9gs8t9r85cdrkg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:455013408386:android:a7ab9b8925b50628",
+        "android_client_info": {
+          "package_name": "com.example.abhishekrawat.questionstudy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "455013408386-upal10haj3e8atfqpe8o9oflkqm2lerl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhishekrawat.questionstudy",
+            "certificate_hash": "3bd2fd89aa125f31a07cac2ae98d954e42523ce1"
+          }
+        },
+        {
+          "client_id": "455013408386-aenumad27av3tfr7qgu4nuuk4fcv5ncn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhishekrawat.questionstudy",
+            "certificate_hash": "fc9a7e72b019e4c1843a3811b2e471b4f2bf8271"
+          }
+        },
+        {
+          "client_id": "455013408386-2i40hf0kvgqmrunht9gs8t9r85cdrkg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOQqmsF0rmtrs2Qb8bf8CtN7hLhqcQcak"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "455013408386-2i40hf0kvgqmrunht9gs8t9r85cdrkg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

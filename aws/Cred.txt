@@ -1,0 +1,6 @@
+Public DNS	ec2-18-216-243-9.us-east-2.compute.amazonaws.com
+User name	Administrator
+Password	
+A)dExb7z!aAeBnH3SgCXBqKNU6uL;7s3
+
+Administrator@ec2-18-216-243-9.us-east-2.compute.amazonaws.com

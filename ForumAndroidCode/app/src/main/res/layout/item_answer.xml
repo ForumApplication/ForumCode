@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="5dp"
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/answer_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam eget nisl. Maecenas lorem. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Vestibulum fermentum tortor id mi. Proin pede metus, vulputate nec, fermentum fringilla, vehicula vitae, justo. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Proin mattis lacinia justo. Aliquam ornare wisi eu metus. Fusce wisi. Duis ante orci, molestie vitae vehicula venenatis, tincidunt ac pede." />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/user_icon"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_user" />
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/user_icon"
+                android:text="Abhishjek"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/create_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="27/8/2018 4:45pm"
+                android:textSize="10sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

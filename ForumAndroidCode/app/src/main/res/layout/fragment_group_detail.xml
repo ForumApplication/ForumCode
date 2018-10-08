@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.GroupDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/group_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why is suebfasbidf?"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/group_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="asgdioabiodasodauodauibhhbcnbmbcxmkxvyjwnhb dmckbhasgdioabiodasodauodauibhhbcnbmbcxmkxvyjwnhb dmckbh"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/user_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_user" />
+
+                <TextView
+                    android:id="@+id/admin_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/user_icon"
+                    android:text="Abhishjek"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/create_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="27/8/2018 4:45pm"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorView" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/members_chip_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+<!--        <com.pchmn.materialchips.ChipView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/members_chip"
+            app:labelColor="@android:color/white"
+            app:avatarIcon="@drawable/ic_user"
+            app:backgroundColor="@android:color/holo_blue_light"
+            app:deletable="false"
+            app:deleteIconColor="@android:color/white" />-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/question_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+</android.support.design.widget.CoordinatorLayout>

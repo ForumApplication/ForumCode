@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+   >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="20">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="18"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/textPrimary"
+                android:id="@+id/question_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why is suebfasbidf?"
+                android:textSize="18sp" />
+
+            <TextView
+                android:textColor="@color/textSecondary"
+                android:id="@+id/question_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="asgdioabiodasodauodauibhhbcnbmbcxmkxvyjwnhb dmckbhasgdioabiodasodauodauibhhbcnbmbcxmkxvyjwnhb dmckbh"
+                android:textSize="14sp" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:id="@+id/image_question"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/user_icon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_user"/>
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/user_icon"
+                    android:textSize="12sp"
+                    android:text="Abhishjek"/>
+                <TextView
+                    android:id="@+id/create_time"
+                    android:layout_width="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textSize="10sp"
+                    android:text="27/8/2018 4:45pm"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:visibility="gone"
+            android:id="@+id/open_question_btn"
+            android:src="@drawable/ic_arrow_forward" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+

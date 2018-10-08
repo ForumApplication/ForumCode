@@ -1,0 +1,27 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "ap-south-1:463627bc-d30e-4d6e-aee8-580b8919a828",
+        "Region": "ap-south-1"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "26f697be15cb4e028579dcf9e76ce862",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  },
+  "S3TransferUtility": { "Default": { "Bucket": "forumapplication", "Region": "ap-south-1" } }
+}

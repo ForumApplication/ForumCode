@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="15dp"
+    tools:context=".ui.AddGroupFragment">
+
+    <EditText
+        android:id="@+id/group_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_shape"
+        android:gravity="top"
+        android:hint="Title"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="26sp" />
+    <EditText
+        android:id="@+id/group_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_shape"
+        android:gravity="top"
+        android:hint="Description"
+        android:maxLines="3"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/group_title"
+
+        android:textSize="26sp" />
+    <com.pchmn.materialchips.ChipsInput
+        android:id="@+id/chips_input"
+        android:layout_below="@+id/group_description"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_shape"
+        app:hint="Members"
+        app:chip_deletable="true"
+        app:maxRows="3"
+        app:showChipDetailed="false"
+       />
+<!--    &lt;!&ndash;<Button&ndash;&gt;
+        &lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;
+        &lt;!&ndash;android:id="@+id/add_member_btn"&ndash;&gt;
+        &lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;
+        &lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;
+        &lt;!&ndash;android:text="Add Member"/>-->-->
+<Button
+    android:id="@+id/add_group_btn"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:textColor="@color/colorWhite"
+    android:text="Add Group"
+    android:background="@color/colorPrimarySemiDark"
+    android:layout_height="wrap_content" />
+</RelativeLayout>

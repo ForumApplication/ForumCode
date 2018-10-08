@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Forum</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="question_added">Question added Successfully</string>
+    <string name="answer_saved">Answer added Successfully</string>
+    <string name="do_want_exit_from_the_app">Do you want to exit from the App?</string>ok
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="search">Search...</string>
+    <string name="group_list_hint">Select Group</string>
+
+    <!--apis-->
+    <string name="api_base_url">http://18.222.198.214:3000</string>
+    <string name="api_register_user">/api/register</string>
+    <string name="api_login">/api/login</string>
+    <string name="api_get_question">/api/GetQuestions</string>
+    <string name="api_save_question">/api/AddQuestion</string>
+    <string name="api_save_answer">/api/SaveAnswer</string>
+    <string name="api_get_answer">/api/GetAnswer</string>
+    <string name="api_save_group">/api/addGroup</string>
+    <string name="api_get_groups">/api/getGroups/</string>
+    <string name="api_get_group_members">/api/getGroupMembers/</string>
+
+</resources>
