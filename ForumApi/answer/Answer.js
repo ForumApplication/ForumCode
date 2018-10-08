@@ -41,7 +41,17 @@ class Answer extends EventEmitter {
                     user = doc.data();
                 });
             }
-
+            var fileUrls = data.fileUrls;
+            var files = [];
+            var path = "https://s3.ap-south-1.amazonaws.com/forumapplication/userfiles/";
+            fileUrls.forEach(function(url){
+                var value = path+url;
+                var keyMap = {
+                    id: util.idGenerator("File"),
+                    url: value
+                };
+                files.push(keyMap);
+              });
             var docData = {
                 id: util.idGenerator("Answer"),
                 createdDate: util.currentDate(),
@@ -54,6 +64,7 @@ class Answer extends EventEmitter {
                 },
                 isFinal: false,
                 isBlocked: false,
+                fileUrls:files,
                 media: null
             };
             firebase.firestore().collection(answerCollection).add(docData).then(function (res) {
